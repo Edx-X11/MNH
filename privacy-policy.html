@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MNH Privacy Policy</title>
+  <style>
+    :root {
+      --bg1: #140306;
+      --bg2: #24080f;
+      --panel: rgba(18, 6, 10, 0.94);
+      --panel-border: #8b1e2d;
+      --gold: #d4af37;
+      --gold-soft: #f0d98c;
+      --text: #f5e9e2;
+      --muted: #d6c4c0;
+      --link: #ffb3b3;
+      --shadow: rgba(139, 30, 45, 0.28);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(139,30,45,0.20), transparent 35%),
+        linear-gradient(180deg, var(--bg1) 0%, var(--bg2) 100%);
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    .hero {
+      padding: 34px 32px;
+      border: 1px solid rgba(212,175,55,0.35);
+      border-radius: 22px;
+      background: linear-gradient(180deg, rgba(44,10,16,0.96), rgba(18,6,10,0.96));
+      box-shadow: 0 18px 48px var(--shadow);
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(212,175,55,0.12), transparent 40%, rgba(139,30,45,0.10));
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold-soft);
+      font-size: 0.78rem;
+      margin: 0 0 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1, h2, h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--gold);
+      margin-top: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 5vw, 3.2rem);
+      margin-bottom: 8px;
+      line-height: 1.08;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      margin: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin: 18px 0 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .meta-card {
+      border: 1px solid rgba(212,175,55,0.22);
+      background: rgba(255,255,255,0.03);
+      border-radius: 16px;
+      padding: 16px;
+    }
+
+    .meta-label {
+      display: block;
+      color: var(--gold-soft);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 6px;
+    }
+
+    .meta-value {
+      color: var(--text);
+      word-break: break-word;
+    }
+
+    .policy {
+      background: var(--panel);
+      border: 1px solid rgba(139,30,45,0.9);
+      border-radius: 20px;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.28);
+      padding: 34px 30px;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 1.55rem;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(139,30,45,0.9);
+      margin-bottom: 14px;
+    }
+
+    p { margin: 0 0 14px; color: var(--text); }
+
+    ul {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li { margin-bottom: 8px; }
+
+    .notice {
+      border-left: 4px solid var(--gold);
+      background: rgba(212,175,55,0.08);
+      padding: 14px 16px;
+      border-radius: 12px;
+      color: var(--muted);
+      margin: 18px 0 0;
+    }
+
+    .footer-note {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(212,175,55,0.4), transparent);
+      margin: 26px 0;
+    }
+
+    @media (max-width: 720px) {
+      .wrap { padding: 18px 14px 40px; }
+      .hero, .policy { padding: 22px 18px; border-radius: 18px; }
+      .meta { grid-template-columns: 1fr; }
+      h2 { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow">MNH • Privacy Policy</p>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">A regal, concise privacy notice for the MNH Discord bot and web app.</p>
+      <div class="meta">
+        <div class="meta-card">
+          <span class="meta-label">Data controller</span>
+          <span class="meta-value">etworks.xyz</span>
+        </div>
+        <div class="meta-card">
+          <span class="meta-label">Support email</span>
+          <span class="meta-value"><a href="mailto:ADMIN@ETWORKS.XYZ">ADMIN@ETWORKS.XYZ</a></span>
+        </div>
+        <div class="meta-card">
+          <span class="meta-label">Service</span>
+          <span class="meta-value">MNH Discord bot and web app</span>
+        </div>
+        <div class="meta-card">
+          <span class="meta-label">Jurisdiction</span>
+          <span class="meta-value">UK GDPR and Data Protection Act 2018</span>
+        </div>
+      </div>
+    </header>
+
+    <article class="policy">
+      <section>
+        <h2>1. Overview</h2>
+        <p>This Privacy Policy explains how etworks.xyz ("we", "us", or "our") collects, uses, and protects personal data when you use MNH, a Discord bot and related web app ("the Service"). We are committed to handling personal data in accordance with the UK GDPR and the Data Protection Act 2018.</p>
+      </section>
+
+      <section>
+        <h2>2. What we collect</h2>
+        <p>We collect only the data necessary to operate the Service. This may include:</p>
+        <ul>
+          <li>Discord user ID, username, display name, and avatar.</li>
+          <li>Authentication and session information provided through Discord.</li>
+          <li>Server usage data such as server ID, channel ID, command usage, timestamps, error logs, and performance data.</li>
+          <li>Support messages or other information you send to us.</li>
+        </ul>
+        <p>We do not intentionally collect passwords, payment details, private messages, or unnecessary profile data.</p>
+      </section>
+
+      <section>
+        <h2>3. How we use data</h2>
+        <p>We use personal data to authenticate users through Discord, provide bot and app features, monitor usage, improve performance, secure the Service, respond to support enquiries, and comply with legal obligations.</p>
+      </section>
+
+      <section>
+        <h2>4. Lawful bases</h2>
+        <p>We rely on the following lawful bases under UK GDPR:</p>
+        <ul>
+          <li><strong>Contract:</strong> to provide the Service and account access.</li>
+          <li><strong>Legitimate interests:</strong> to secure, maintain, and improve the Service.</li>
+          <li><strong>Legal obligation:</strong> where required by law.</li>
+          <li><strong>Consent:</strong> where needed for optional features or non-essential cookies.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Discord authentication</h2>
+        <p>MNH uses Discord authentication, and accounts are handled through Discord rather than a separate internal password system. When you sign in or use the bot, Discord may share limited information with us that is necessary to identify your account and operate the Service. Discord processes data independently under its own privacy policy, which also applies to your use of Discord.</p>
+      </section>
+
+      <section>
+        <h2>6. Cookies and logs</h2>
+        <p>If the web app uses cookies, we limit them to what is necessary for the Service unless you choose to allow optional cookies. We may also store server logs for security, troubleshooting, abuse prevention, and performance monitoring.</p>
+      </section>
+
+      <section>
+        <h2>7. Sharing information</h2>
+        <p>We do not sell your personal data. We may share limited information only with trusted service providers where necessary, including Discord for authentication and account handling, hosting or logging providers, security tools, and legal or regulatory authorities where required.</p>
+      </section>
+
+      <section>
+        <h2>8. Retention</h2>
+        <p>We keep personal data only for as long as needed to run the Service and meet legal obligations. Support emails are retained only as long as needed to resolve the issue. Server usage logs are retained for operational and security purposes and then deleted or anonymised after [insert retention period].</p>
+      </section>
+
+      <section>
+        <h2>9. Security</h2>
+        <p>We use reasonable technical and organisational measures to protect personal data against unauthorised access, misuse, loss, or disclosure. No online system is perfectly secure, but we work to keep your information protected.</p>
+      </section>
+
+      <section>
+        <h2>10. Your rights</h2>
+        <p>Under UK GDPR, you may have the right to be informed, access your personal data, correct inaccurate information, delete your data in some cases, restrict processing in some cases, object to processing based on legitimate interests, request data portability in some cases, and withdraw consent where processing is based on consent. To exercise your rights, email <a href="mailto:ADMIN@ETWORKS.XYZ">ADMIN@ETWORKS.XYZ</a>.</p>
+      </section>
+
+      <section>
+        <h2>11. Children</h2>
+        <p>The Service is not intended for children under the minimum age allowed by Discord or applicable law. We do not knowingly collect personal data from children without a valid lawful basis.</p>
+      </section>
+
+      <section>
+        <h2>12. Changes to this policy</h2>
+        <p>We may update this Privacy Policy from time to time. The updated version will be posted on this page with a revised effective date.</p>
+      </section>
+
+      <section>
+        <h2>13. Contact and complaints</h2>
+        <p>If you have questions or concerns about this Privacy Policy, contact us at <a href="mailto:ADMIN@ETWORKS.XYZ">ADMIN@ETWORKS.XYZ</a>. You also have the right to complain to the UK Information Commissioner’s Office (ICO) if you believe your data protection rights have been violated.</p>
+      </section>
+
+      <div class="divider"></div>
+      <div class="notice">
+       revision: 3
+      </div>
+      <p class="footer-note">Effective date: date</p>
+    </article>
+  </main>
+</body>
+</html>
