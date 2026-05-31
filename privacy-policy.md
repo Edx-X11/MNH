@@ -1,0 +1,70 @@
+# MNH Privacy Policy
+
+**Data controller:** etworks.xyz  
+**Support email:** [ADMIN@ETWORKS.XYZ](mailto:ADMIN@ETWORKS.XYZ)  
+**Service:** MNH Discord bot and web app  
+**Jurisdiction:** UK GDPR and Data Protection Act 2018  
+
+## 1. Overview
+
+This Privacy Policy explains how etworks.xyz ("we", "us", or "our") collects, uses, and protects personal data when you use MNH, a Discord bot and related web app ("the Service"). We are committed to handling personal data in accordance with the UK GDPR and the Data Protection Act 2018.
+
+## 2. What we collect
+
+We collect only the data necessary to operate the Service. This may include:
+
+- Discord user ID, username, display name, and avatar.
+- Authentication and session information provided through Discord.
+- Server usage data such as server ID, channel ID, command usage, timestamps, error logs, and performance data.
+- Support messages or other information you send to us.
+
+We do not intentionally collect passwords, payment details, private messages, or unnecessary profile data.
+
+## 3. How we use data
+
+We use personal data to authenticate users through Discord, provide bot and app features, monitor usage, improve performance, secure the Service, respond to support enquiries, and comply with legal obligations.
+
+## 4. Lawful bases
+
+We rely on the following lawful bases under UK GDPR:
+
+- **Contract:** to provide the Service and account access.
+- **Legitimate interests:** to secure, maintain, and improve the Service.
+- **Legal obligation:** where required by law.
+- **Consent:** where needed for optional features or non-essential cookies.
+
+## 5. Discord authentication
+
+MNH uses Discord authentication, and accounts are handled through Discord rather than a separate internal password system. When you sign in or use the bot, Discord may share limited information with us that is necessary to identify your account and operate the Service. Discord processes data independently under its own privacy policy, which also applies to your use of Discord.
+
+## 6. Cookies and logs
+
+If the web app uses cookies, we limit them to what is necessary for the Service unless you choose to allow optional cookies. We may also store server logs for security, troubleshooting, abuse prevention, and performance monitoring.
+
+## 7. Sharing information
+
+We do not sell your personal data. We may share limited information only with trusted service providers where necessary, including Discord for authentication and account handling, hosting or logging providers, security tools, and legal or regulatory authorities where required.
+
+## 8. Retention
+
+We keep personal data only for as long as needed to run the Service and meet legal obligations. Support emails are retained only as long as needed to resolve the issue. Server usage logs are retained for operational and security purposes and then deleted or anonymised after [insert retention period].
+
+## 9. Security
+
+We use reasonable technical and organisational measures to protect personal data against unauthorised access, misuse, loss, or disclosure. No online system is perfectly secure, but we work to keep your information protected.
+
+## 10. Your rights
+
+Under UK GDPR, you may have the right to be informed, access your personal data, correct inaccurate information, delete your data in some cases, restrict processing in some cases, object to processing based on legitimate interests, request data portability in some cases, and withdraw consent where processing is based on consent. To exercise your rights, email [ADMIN@ETWORKS.XYZ](mailto:ADMIN@ETWORKS.XYZ).
+
+## 11. Children
+
+The Service is not intended for children under the minimum age allowed by Discord or applicable law. We do not knowingly collect personal data from children without a valid lawful basis.
+
+## 12. Changes to this policy
+
+We may update this Privacy Policy from time to time. The updated version will be posted on this page with a revised effective date.
+
+## 13. Contact and complaints
+
+If you have questions or concerns about this Privacy Policy, contact us at [ADMIN@ETWORKS.XYZ](mailto:ADMIN@ETWORKS.XYZ). You also have the right to complain to the UK Information Commissioner’s Office (ICO) if you believe your data protection rights have been violated.
