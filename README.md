@@ -44,4 +44,4 @@ For support or privacy questions, email:
 
 ## License
 
-Add your chosen license here.
+GNU General Public License v3.0
