@@ -23,7 +23,7 @@ Privacy support contact:
 
 ## Repository Contents
 
-- `privacy-policy.html` — privacy policy page.
+- `privacy-policy` — privacy policy page.
 - `README.md` — project overview.
 - Other source files for the bot or web app.
 
